@@ -190,7 +190,6 @@ ggplot(mapping = aes(x = as.numeric(plotData$TrPProt[i, ]),
     ylab("TrPPep quantity") ++
     theme_bw(base_size = 11) +
   theme(aspect.ratio = 1, legend.position = "none")
-()
 
 ### LiPPPep vs TrPProt
 ggplot(mapping = aes(x = as.numeric(plotData$TrPProt[i, ]),
