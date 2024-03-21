@@ -157,7 +157,7 @@ getPlot <- function(resModel, title){
                                alpha = .3, color = "#eddddd", 
                                fill = "#eddddd"), position = "bottom")
 }
-?append_layers
+
 #### Extended Data Figure 7b
 getPlot(resModelAllaSynFTHT, "aSyn effect in all samples")
 #### Extended Data Figure 7c
